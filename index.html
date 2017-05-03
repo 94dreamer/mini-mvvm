@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MVVM demo</title>
+</head>
+<body style="margin: 50px 0 0 50px;" foio-controller='test'>
+<div>
+  门店类型：
+  <label><input type="radio" name="store" value="0">radio0</label>
+  <label><input type="radio" name="store" value="1">radio1</label>
+  <label><input type="radio" name="store" value="2">radio2</label>
+  <label><input type="radio" name="store" value="3">radio3</label>
+</div>
+<div>
+  <br>
+  输入门店名称：<input type="text">
+</div>
+<div>
+  <p>门店名称：{{storename}}</p>
+  <p>门店人数：{{num}}</p>
+</div>
+<script src="dm.js"></script>
+</body>
+</html>
